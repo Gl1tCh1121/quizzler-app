@@ -80,6 +80,7 @@ Your final score was: 2/2
 <ul>
   <li>Python 3.9+</li>
   <li>Tkinter (for GUI)</li>
+  <li>Requests module</li></li>
 </ul>
 
 <hr>
