@@ -18,8 +18,9 @@ class QuizBrain:
         return f"Q.{self.question_number}: {q_text}"
     
     def check_answer(self, true_or_false):
-        correct_answer = bool(self.current_question.answer)
-        self.user_answer = true_or_false
+        correct_answer = self.current_question.answer
+        self.user_answer = str(true_or_false)
+        print(true_or_false, correct_answer)
         if self.user_answer == correct_answer:
             self.score += 1
             return True
